@@ -1,0 +1,67 @@
+/* Basic styling for our wedding website */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    color: #d4af37;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #8b4513;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+strong {
+    color: #8b4513;
+}
+
+/* Wedding-specific styling */
+.dog-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border-left: 4px solid #d4af37;
+}
+
+.dog-photos {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Links styling */
+a {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #8b4513;
+    text-decoration: underline;
+}
+
+/* Elegant spacing */
+h2 {
+    margin-top: 30px;
+}
+
+h3 {
+    color: #d4af37;
+    margin-top: 15px;
+}

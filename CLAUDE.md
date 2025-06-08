@@ -26,8 +26,12 @@
 3. **JavaScript + Simple Framework** (like vanilla JS with minimal tooling)
 4. **Modern JS Framework** (React, Vue, etc.) - Industry standard but steeper learning curve
 
-### Recommendation: TBD
-We'll discuss and decide based on learning goals vs. practicality.
+### Chosen: Pure HTML/CSS/JavaScript
+- **HTML** - Structure and content
+- **CSS** - Styling and layout  
+- **JavaScript** - Interactivity (minimal for this project)
+- No build tools initially - just open files directly in browser
+- Can add simple Python server later for local development
 
 ## Repository
 - GitHub: https://github.com/andresgogo/wedding_save_the_date.git
@@ -38,11 +42,13 @@ We'll discuss and decide based on learning goals vs. practicality.
 - General wedding plan/schedule
 - Contact information (optional)
 - RSVP mechanism (future consideration)
+- Pictures of dog
+- Wedding-specific styling and themes
 
 ## Development Commands
-- Build: TBD (depends on chosen technology)
-- Serve locally: TBD
-- Deploy: TBD
+- **View locally**: Open `index.html` directly in browser
+- **Simple server**: `python3 -m http.server 8000` (then visit http://localhost:8000)
+- **Deploy**: GitHub Pages (will set up later)
 
 ## Notes
 - Prioritize learning over speed
